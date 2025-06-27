@@ -15,12 +15,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     
-      grid-template-columns: repeat(9, 20px);
-    grid-template-rows: repeat(9, 20px);
+      grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     gap: 4.8px;
     position: relative;
 }
 #board img{
     width: 45px;
     height: 45px;
+    object-fit: cover;
   }
