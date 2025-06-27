@@ -37,6 +37,9 @@ let row = [];
             tile.addEventListener("dragleave", dragLeave); 
             tile.addEventListener("drop", dragDrop);
             tile.addEventListener("dragend", dragEnd); 
+            tile.addEventListener("touchstart", dragEnd); 
+            tile.addEventListener("touchend", dragEnd); 
+        
 
             document.getElementById("board").append(tile);
             row.push(tile);
