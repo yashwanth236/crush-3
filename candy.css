@@ -1,0 +1,26 @@
+body{ 
+    background: url("./background-image.jpg")no-repeat center center fixed;
+    background-size: cover ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+#board{
+    width: 445px;
+    height: 445px;
+    background-color: lightgrey;
+    border: 100px white;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+      grid-template-columns: repeat(9, 20px);
+    grid-template-rows: repeat(9, 20px);
+    gap: 4.8px;
+    position: relative;
+}
+#board img{
+    width: 45px;
+    height: 45px;
+  }
